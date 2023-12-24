@@ -1,0 +1,28 @@
+@media (min-width:320)and(max-width:1000){
+  ul{
+  width: 94%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+li{
+  float: left;
+  list-style: none;
+}
+li a{
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2px 2px;
+  text-decoration:none;
+  
+  color: aliceblue;
+   margin-left: 10px;
+}
+footer{
+  clear: both;
+}
+.piepagina{
+  clear: both;
+}
+}

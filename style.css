@@ -1,0 +1,115 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: #003349;
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+ul{
+  width: 60%;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+li{
+  float: left;
+  list-style: none;
+}
+li a{
+  font-size: 28px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 18px 18px;
+  text-decoration:none;
+  line-height: 60px;
+  color: aliceblue;
+   margin-left: 10px;
+}
+main .photo {
+background-image: url(https://lagunalawnservice.com/img/galeria9.jpg);  
+background-size: cover;
+background-position: 40%;
+width: 100%;
+height: 320px;
+overflow: hidden;
+}
+main .photo h1{
+color: #003349;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+main .photo p{
+  color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+main .videos{
+  width: 80%;
+  height:200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  border-bottom: 1px solid #003349;
+   
+}
+main .videos h2{
+  text-align: right;
+  margin-right: 20px;
+  padding: 10px 10px;
+  font-size: 26px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+main .videos ul{
+  width: 80%;
+  height: 200px;
+   
+}
+main .videos ul li{
+  float: left;
+}
+main .videos ul li a{
+  color: #003349;
+  padding: 18px 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 140px;
+  text-align: right;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #333;
+  margin-top: 220px;
+   
+}
+footer{
+   border-top: 2px solid green;
+}
+footer .piepagina{
+width: 40%;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+padding: 10px 10px; 
+ 
+}
+footer .piepagina p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+footer .piepagina a{
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
