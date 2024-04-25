@@ -25,4 +25,9 @@ footer{
 .piepagina{
   clear: both;
 }
+main .videos{
+  background-color: #fff;
+  width: 90%;
+  height:1000px;
+}
 }
