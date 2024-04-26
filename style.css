@@ -3,7 +3,7 @@ body{
   margin: 0;
 }
 header{
-  background-color: #003349;
+  background-color: #f6f6f6;
   width: 100%;
   height: 100px;
   overflow: hidden;
@@ -12,6 +12,8 @@ header{
   top: 0;
 }
 ul{
+  background-color: #f6f6f6;
+  overflow: hidden; 
   width: 80%;
   height: 100px;
   margin-left: auto;
@@ -23,13 +25,15 @@ li{
   list-style: none;
 }
 li a{
-  font-size: 28px;
+  font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 18px 18px;
+  padding: 8px 18px;
   text-decoration:none;
+  color: #000;
    
-  color: aliceblue;
-   margin-left: 10px;
+}
+#caveza{
+  border-radius: .4rem;
 }
 main .photo {
 background-image: url(https://lagunalawnservice.com/img/galeria9.jpg);  

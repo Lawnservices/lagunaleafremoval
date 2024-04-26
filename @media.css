@@ -1,5 +1,5 @@
-@media (min-width:320)and(max-width:1000){
-  ul{
+@media (min-width:320px) and (max-width:1000px){
+ul{
   width: 94%;
   height: 100px;
   margin-left: auto;
@@ -15,17 +15,23 @@ li a{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 2px 2px;
   text-decoration:none;
-  
   color: aliceblue;
-   margin-left: 10px;
+  margin-left: 10px;
+}
+.nombre{
+  color: green;
 }
 .video{
-  
-  width: 90%;
+  width: 96%;
   height: 360px;
-  margin-top: 100px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: .2rem;
+}
+.video iframe{
+  height: 360px;
+  width: 100%;
   border-radius: .2rem;
 }
 footer{
@@ -34,9 +40,5 @@ footer{
 .piepagina{
   clear: both;
 }
-main .videos{
-  background-color: #fff;
-  width: 90%;
-  height:1000px;
-}
+ 
 }
