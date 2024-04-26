@@ -19,6 +19,15 @@ li a{
   color: aliceblue;
    margin-left: 10px;
 }
+.video{
+  
+  width: 90%;
+  height: 360px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: .2rem;
+}
 footer{
   clear: both;
 }
