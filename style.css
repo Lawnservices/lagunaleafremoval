@@ -32,8 +32,11 @@ li a{
   color: #000;
    
 }
+html{
+  scroll-behavior: smooth;
+}
 #caveza{
-  border-radius: .4rem;
+  border-radius: .2rem;
 }
 main .photo {
 background-image: url(https://lagunalawnservice.com/img/galeria9.jpg);  

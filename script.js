@@ -2,7 +2,7 @@ const mas = document.getElementById('caveza');
 
 document.addEventListener('scroll', () => {
   var scroll_position = window.scrollY;
-  if(scroll_position > 100){
+  if(scroll_position > 200){
     caveza.style.backgroundColor = '#003349';
     caveza.style.color = '#fff';
   } else {
